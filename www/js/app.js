@@ -1,5 +1,5 @@
 app.constant("Config", {
-  "WebUrl": "http://aplicativo.hostbdc.com.br/blogapp/api/",
+  "WebUrl": "http://domain.com/api/news/posts/",
   "AppName" : "BLOG JUNAC",
   "AndroidAppUrl" : "",
   "ErrorMessage" : "NENHUM RESULTADO"
