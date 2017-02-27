@@ -20,16 +20,14 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />        
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />    
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-network-information"
         
-    <gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" />    
-    <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />    
+    <gap:plugin name="cordova-plugin-request-location-accuracy"  
+    <gap:plugin name="nl.x-services.plugins.socialsharing"   
 
-    <gap:plugin name="cordova-plugin-fastrde-checkgps" source="npm" />
+    <gap:plugin name="cordova-plugin-fastrde-checkgps"
     <gap:plugin spec="https://github.com/phonegap-build/PushPlugin.git" source="git" />
-    
     <gap:plugin spec="https://github.com/gitawego/cordova-screenshot.git" source="git" />
-   
     </gap:plugin>   
     
 <gap:splash src="splash.png" />
