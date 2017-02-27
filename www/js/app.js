@@ -1,7 +1,7 @@
 app.constant("Config", {
   "WebUrl": "http://aplicativo.hostbdc.com.br/blogapp/api/",
   "AppName" : "BLOG JUNAC",
-  "AndroidAppUrl" : "https://play.google.com/store/apps/details?id=com.myspecialgames.advanced2048game",
+  "AndroidAppUrl" : "",
   "ErrorMessage" : "NENHUM RESULTADO"
 })
 // config contact
