@@ -22,4 +22,10 @@ app.constant("Color", {
 app.constant("PushNoti", {
   "senderID": "senderID",
 })
+// npm hosted (new) id
+cordova plugin add cordova-plugin-splashscreen
 
+})
+// you may also install directly from this repo
+cordova plugin add https://github.com/apache/cordova-plugin-splashscreen.git
+})
