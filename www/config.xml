@@ -19,15 +19,12 @@
     <preference name="android-build-tool" value="gradle" />    
     <preference name="phonegap-version" value="cli-6.5.0" />
         
-    <gap:plugin name="de-appplant-cordova-plugin-email-composer" source="npm" />
+    <gap:plugin name="cordova-plugin-email-composer" source="npm" />
     <gap:plugin name="cordova-plugin-whitelis" source="npm" />
-    <gap:plugin name="nl-x-services-plugins-socialsharing" source="npm" />                
-    <gap:plugin name="cordova-plugin-admobpro" source="npm" />        
+    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />                       
     <gap:plugin name="cordova-plugin-device" source="npm" />        
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />    
-    <gap:plugin name="https://github.com/gitawego/cordova-screenshot.git" source="npm" />
-    <gap:plugin name="https://github.com/phonegap-build/PushPlugin.git" source="npm" />
-    <gap:plugin name="nl-x-services-plugins-toast" source="npm" />    
+    <gap:plugin name="cordova-plugin-x-toast" source="npm" />    
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />    
     
     </gap:plugin>
