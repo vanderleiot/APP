@@ -5,9 +5,9 @@
     id        = "blog.junac.app"
     versionCode = "1"
     version   = "1.0">
-    <name>ComidaaJato</name>
+    <name>BLOG JUNAC</name>
     <description>
-        comidaajato
+        central de noticia do Grupo Junac
     </description>
     <author email="central@comidaajato.com" href="http://cordova.io">
         www.comidaajato.com
@@ -17,30 +17,18 @@
                
     <preference name="orientation" value="portrait" />
     <preference name="android-build-tool" value="gradle" />    
-    <preference name="phonegap-version" value="cli-6.4.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
         
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
-    <gap:plugin name="com.paypal.cordova.mobilesdk" source="npm"  />                
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelis" source="npm"
+    <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm"  />                
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />        
     <gap:plugin name="cordova-plugin-device" source="npm" />        
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />        
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />    
+    <gap:plugin name="https://github.com/gitawego/cordova-screenshot.git" source="npm" />
+    <gap:plugin name="https://github.com/phonegap-build/PushPlugin.git" source="npm" />
+    <gap:plugin name="nl.x-services.plugins.toast" source="npm" />    
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />    
-    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
-    <gap:plugin name="cordova-plugin-network-information" source="npm" />
-        
-    <gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" />    
-    <gap:plugin name="cordova-plugin-x-toast" source="npm" />    
-
-    <gap:plugin name="cordova-plugin-fastrde-checkgps" source="npm" />
-    <gap:plugin spec="https://github.com/rodrigo-martinezd/cordova-dialog-gps.git" source="git" />
-    
-    <gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git" source="git" />
-    <gap:plugin name="cordova-plugin-media" source="npm" />    
-    <gap:plugin name="cordova.plugins.diagnostic" source="npm" />    
-        
-    <gap:plugin name="cordova-plugin-googlemaps"  source="npm" spec="1.3.9" >
-       <param name="API_KEY_FOR_ANDROID" value="" />
-       <param name="API_KEY_FOR_IOS" value="" />
     </gap:plugin>
     
     <gap:splash src="splash.png" />
